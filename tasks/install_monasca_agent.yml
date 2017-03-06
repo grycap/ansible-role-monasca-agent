@@ -69,7 +69,7 @@
     - "my.cnf"
     - "apache.cnf"
     - "supervisord.cnf"
-  when: "inventory_hostname in groups['devstack']"
+#  when: "inventory_hostname in groups['devstack']"
   tags:
     - monasca-plugins
     - monasca-install-agent
