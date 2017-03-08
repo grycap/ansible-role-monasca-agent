@@ -26,3 +26,4 @@ monasca_agent_apt_packages:
   - libxslt1-dev
   - python-dev
   - python-yaml
+  - python-pip
