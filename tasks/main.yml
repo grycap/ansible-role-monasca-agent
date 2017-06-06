@@ -29,3 +29,4 @@
 
 - include: install_monasca_client.yml
 - include: install_monasca_agent.yml
+- include: install_docker_plugin.yml
