@@ -28,7 +28,7 @@
 - name: Modify /run/docker permission files
   file:
     path: /run/docker
-    mode: "u=a+rx,g=a+rx,o=a+rx"
+    mode: "u+rx,g+rx,o+rx"
 
 - name: Add 'mon-agent' user to docker group
   user:
