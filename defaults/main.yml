@@ -51,6 +51,7 @@ monasca_agent_required_pip_packages:
 
 # Common pip packages
 monasca_agent_pip_packages:
+  - eventlet==0.20.1  
   - PyMySQL
   - python-neutronclient
   - MySQL-python
