@@ -12,4 +12,5 @@ galaxy_info:
     - monasca
     - monasca-agent
 
-dependencies: []
+dependencies:
+ - { role: 'grycap.docker', docker_opts: "{{ mesos_docker_opts }}" }
